@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace FolderHttpServer
-{
   public static class Mimetypes
   {
     private static Dictionary<string, string> _mimetypes = new Dictionary<string, string>(){
@@ -26,4 +24,4 @@ namespace FolderHttpServer
     }
 
   }
-}
+
