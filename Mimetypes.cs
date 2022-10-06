@@ -12,7 +12,8 @@ using System.Collections.Generic;
         {".gif", "image/gif"},
         {".js", "application/javascript"},
         {".eot", "application/vnd.ms-fontobject"},
-        {".ico", "image/x-icon"}
+        {".ico", "image/x-icon"},
+        {".wasm", "application/wasm"}
       };
     
     public static string GetMimetype(string fileExtension)
